@@ -2,7 +2,7 @@ import Foundation
 import XCTest
 @testable import Likyly
 
-/// Against a real API: `sdk/conformance/local-api.sh start`, `source sdk/conformance/.local-api.env`, then
+/// Against a real API: `conformance/local-api.sh start`, `source conformance/.local-api.env`, then
 /// `swift test`. Skipped when LIKYLY_TEST_URL / LIKYLY_TEST_SECRET_KEY / LIKYLY_TEST_PUBLIC_KEY are not set.
 ///
 /// The catalog and the placement are set up with the secret key over plain HTTP, as a backend would; everything
